@@ -1,0 +1,29 @@
+.about {
+  text-align: center;
+}
+
+.about__titulo {
+  margin: 96px 0 24px;
+  color: var(--vermelho-escuro);
+  font-weight: 600;
+}
+
+.about__titulo-principal {
+  font-size: 48px;
+  color: var(--azul-escuro);
+  margin-bottom: 24px;
+}
+
+.about__descricao {
+  font-size: 20px;
+  color: var(--cinza-azulado);
+  max-width: 791px;
+  margin: auto;
+  line-height: 30px;
+  margin-bottom: 107px;
+}
+
+@media screen and (max-width: 700px) {
+
+  
+}

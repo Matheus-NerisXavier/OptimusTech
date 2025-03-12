@@ -1,0 +1,38 @@
+@import url('styles/header.css');
+@import url('styles/about.css');
+@import url('styles/enterprise.css');
+@import url('styles/vacancies.css');
+@import url('styles/testimonials.css');
+@import url('styles/footer.css');
+
+:root {
+  --branco: #FFF;
+  --cinza-azulado: #667085;
+  --cinza-escuro: #3A404E;
+  --cinza-claro: #EAECF0;
+  --cinza-medio: #F9FAFB;
+  --cinza-borda: #D0D5DD;
+  --cinza-copy: #98A2B3;
+  --vermelho-escuro: #8E2424;
+  --vermelho-claro-degrade: #C3191908;
+  --vermelho-degrade: #8E24240D;
+  --azul-escuro: #101828;
+  --fonte-principal: 'Inter';
+}
+
+body {
+  background-color: var(--branco);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  padding: 24px 112px;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding: 40px;
+  }
+}

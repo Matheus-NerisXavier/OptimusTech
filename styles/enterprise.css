@@ -1,0 +1,43 @@
+.enterprise__item {
+  max-width: 280px;
+}
+
+.enterprise__lista {
+  display: flex;
+  gap: 32px;
+}
+
+.enterprise__numero {
+  color: var(--vermelho-escuro);
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.enterprise__titulo {
+  color: var(--azul-escuro);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.enterprise__descricao {
+  color: var(--cinza-azulado);
+  line-height: 24px;
+  margin-bottom: 96px;
+}
+
+.enterprise__numero:hover {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .enterprise__lista {
+    flex-direction: column;
+  }
+
+  .enterprise__item {
+    max-width: none;
+    text-align: center;
+  }
+}

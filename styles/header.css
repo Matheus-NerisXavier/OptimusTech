@@ -1,0 +1,67 @@
+.cabecalho__nav, .cabecalho__logo, .cabecalho__lista, .cabecalho__botoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cabecalho__empresa:hover {
+  color: var(--vermelho-escuro);
+  font-size: 19px;
+}
+
+.cabecalho__nav {
+  margin-bottom: 18px;
+}
+
+.cabecalho__empresa {
+  font-size: 18px;
+  margin-left: 8px;
+  color: var(--cinza-escuro);
+  font-weight: 500;
+}
+
+.cabecalho__lista {
+  gap: 32px;
+}
+
+.cabecalho__link {
+  text-decoration: none;
+  color: var(--cinza-azulado);
+  font-weight: 500;
+
+}
+
+.cabecalho__botoes {
+  gap: 12px;
+}
+
+.botao__entrar {
+  border: none;
+  background-color: transparent;
+  color: var(--cinza-azulado);
+  font-weight: 500;
+}
+
+.botao__cadastrar {
+  border: none;
+  background-color: var(--vermelho-escuro);
+  padding: 10px 18px;
+  color: var(--branco);
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.cabecalho__link:hover, .botao__entrar {
+  color: var(--vermelho-escuro);
+}
+
+@media screen and (max-width: 700px) {
+  .cabecalho__lista {
+    display: none;
+  }
+
+  .cabecalho__lista {
+    gap: 10px;
+  }
+  
+}

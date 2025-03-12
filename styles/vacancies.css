@@ -1,0 +1,84 @@
+.vacancies {
+  text-align: center;
+}
+
+.vacancies__badge {
+  max-width: 125px;
+  margin:  0 auto;
+  border-radius: 16px;
+  background: var(--vermelho-degrade);
+}
+
+.vacancies__badge-titulo {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;  
+  color: var(--vermelho-escuro);
+  padding: 4px 12px;
+  margin: 64px 0 16px;
+}
+
+.vacancies__titulo {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: var(--azul-escuro);
+  margin-bottom: 20px;
+}
+
+.vacancies__descricao {
+  font-size: 20px;
+  color: var(--cinza-azulado);
+  margin-bottom: 64px;
+}
+
+.open__vacancies {
+  max-width: 768px;
+  margin: auto;
+}
+
+.open__vacancies-titulo {
+  color: var(--azul-escuro);
+  font-size: 20px;
+  font-weight: 500;
+  margin: 64px 0 32px;
+}
+
+.open__vacancies-card {
+  border: 1px solid var(--cinza-claro);
+  border-radius: 16px;
+  margin-bottom: 24px;
+  height: 136px;
+}
+
+.open__vacancies-nome {
+  color: var(--azul-escuro);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 34px 24px 32px;
+}
+
+.open__vacancies-descricao {
+  color: var(--cinza-azulado);
+  font-weight: 500;
+  padding: 0 24px 28px;
+}
+
+.open__vacancies-price {
+  margin-left: 24px;
+}
+
+.open__vacancies-card:hover {
+  border: 1px solid var(--vermelho-escuro);
+}
+
+.open__vacancies-price:hover {
+  color: var(--vermelho-escuro);
+}
+
+@media screen and (max-width: 700px) {
+  .imagem_recrutadores {
+    width: 300px;
+    text-align: center;
+  }
+}
